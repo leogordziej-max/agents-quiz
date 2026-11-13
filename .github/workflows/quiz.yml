@@ -1,0 +1,91 @@
+name: Quiz du jour
+
+on:
+  schedule:
+    - cron: "17 16 * * *"   # tous les jours à 16:17 UTC (17:17 à Paris en hiver)
+  workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: quiz
+  cancel-in-progress: false
+
+jobs:
+  produire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Outils système (ffmpeg, police)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Dépendances Python
+        run: pip install -r requirements.txt
+
+      - name: Voix française (cache)
+        id: voix
+        uses: actions/cache@v4
+        with:
+          path: voices
+          key: piper-fr-siwis-medium-v1
+
+      - name: Télécharger la voix
+        if: steps.voix.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p voices && cd voices
+          curl -sSL -o fr.tar.gz https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-siwis-medium.tar.gz
+          tar xzf fr.tar.gz && rm fr.tar.gz
+
+      - name: Les agents travaillent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python agents.py
+
+      - name: Construire le bureau des agents
+        if: always()
+        run: test -f run.json && python build_site.py || echo "pas de run.json"
+
+      - name: Sauvegarder l'historique
+        if: success()
+        run: |
+          git config user.name "agents-quiz"
+          git config user.email "agents-quiz@users.noreply.github.com"
+          git add historique.json run.json
+          git commit -m "Vidéo du jour" || echo "rien à committer"
+          git push
+
+      - name: Vidéo téléchargeable
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-du-jour
+          path: sorties/
+          retention-days: 30
+
+      - name: Préparer la page
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  page:
+    needs: produire
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
