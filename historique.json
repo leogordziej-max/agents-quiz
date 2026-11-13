@@ -2,12 +2,18 @@
  "utilisees": [
   "Combien de pattes a une araignée ?",
   "Quelle est la capitale du Canada ?",
-  "Quel est le plus long fleuve de France ?"
+  "Quel est le plus long fleuve de France ?",
+  "Quel est le symbole chimique de l'or ?",
+  "Quelle planète est la plus proche du Soleil ?",
+  "Quel est l'animal terrestre le plus rapide ?"
  ],
- "videos": 1,
+ "videos": 2,
  "themes_recents": [
   "Sciences",
   "Animaux",
-  "Corps humain"
+  "Corps humain",
+  "Inventions",
+  "Espace",
+  "Mythologie"
  ]
 }

@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-13T10:47:04",
+ "debut": "2026-11-13T17:00:09",
  "agents": [
   {
    "nom": "Léa",
@@ -8,7 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Sciences, Animaux, Corps humain"
+    "Thèmes du jour : Inventions, Espace, Mythologie",
+    "Évités (déjà faits récemment) : Sciences, Animaux, Corps humain"
    ],
    "duree": 0.0
   },
@@ -19,9 +20,9 @@
    "statut": "ok",
    "message": "3 questions tirées de la banque (mode secours, pas de clé IA)",
    "details": [
-    "Combien de pattes a une araignée ?",
-    "Quelle est la capitale du Canada ?",
-    "Quel est le plus long fleuve de France ?"
+    "Quel est le symbole chimique de l'or ?",
+    "Quelle planète est la plus proche du Soleil ?",
+    "Quel est l'animal terrestre le plus rapide ?"
    ],
    "duree": 0.0
   },
@@ -39,41 +40,41 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix générées, durée totale 29.4 s",
+   "message": "Voix générées, durée totale 29.7 s",
    "details": [
     "Voix : Piper fr-siwis (gratuite, locale)"
    ],
-   "duree": 11.43
+   "duree": 5.78
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 11.43,
+   "debut": 5.78,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_001.mp4",
+   "message": "Vidéo montée : quiz_002.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 19.91
+   "duree": 26.1
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 31.34,
+   "debut": 31.88,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 29.4 s",
+    "Durée 29.6 s",
     "Poids 0.8 Mo"
    ],
-   "duree": 0.05
+   "duree": 0.06
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 31.39,
+   "debut": 31.94,
    "statut": "ok",
    "message": "Prête à publier (comptes pas encore connectés)",
    "details": [
@@ -83,44 +84,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_001.mp4",
- "duree_totale": 31.4,
+ "video": "quiz_002.mp4",
+ "duree_totale": 31.9,
  "quiz": [
   {
+   "theme": "Sciences",
+   "question": "Quel est le symbole chimique de l'or ?",
+   "options": [
+    "Ag",
+    "Au",
+    "Or"
+   ],
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Au !",
+   "bonus": "Du latin aurum. Ag, c'est l'argent."
+  },
+  {
+   "theme": "Espace",
+   "question": "Quelle planète est la plus proche du Soleil ?",
+   "options": [
+    "Vénus",
+    "Mercure",
+    "Mars"
+   ],
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Mercure !",
+   "bonus": "Mais la plus chaude, c'est Vénus."
+  },
+  {
    "theme": "Animaux",
-   "question": "Combien de pattes a une araignée ?",
+   "question": "Quel est l'animal terrestre le plus rapide ?",
    "options": [
-    "Six",
-    "Huit",
-    "Dix"
+    "Le lion",
+    "L'antilope",
+    "Le guépard"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : huit !",
-   "bonus": "Ce n'est pas un insecte : eux en ont six."
-  },
-  {
-   "theme": "Géographie",
-   "question": "Quelle est la capitale du Canada ?",
-   "options": [
-    "Toronto",
-    "Ottawa",
-    "Montréal"
-   ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Ottawa !",
-   "bonus": "Pas Toronto ni Montréal, pourtant bien plus grandes."
-  },
-  {
-   "theme": "Géographie",
-   "question": "Quel est le plus long fleuve de France ?",
-   "options": [
-    "La Seine",
-    "La Loire",
-    "Le Rhône"
-   ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : la Loire !",
-   "bonus": "Environ 1 000 km de long."
+   "bonne": 2,
+   "reponse_voix": "Réponse C : le guépard !",
+   "bonus": "Environ 100 km/h en pointe."
   }
  ]
 }
