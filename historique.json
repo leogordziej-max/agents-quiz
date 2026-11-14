@@ -5,15 +5,21 @@
   "Quel est le plus long fleuve de France ?",
   "Quel est le symbole chimique de l'or ?",
   "Quelle planète est la plus proche du Soleil ?",
-  "Quel est l'animal terrestre le plus rapide ?"
+  "Quel est l'animal terrestre le plus rapide ?",
+  "Combien d'os a un adulte ?",
+  "Qui a peint la Joconde ?",
+  "Combien de joueurs par équipe sur un terrain de foot ?"
  ],
- "videos": 2,
+ "videos": 3,
  "themes_recents": [
   "Sciences",
   "Animaux",
   "Corps humain",
   "Inventions",
   "Espace",
-  "Mythologie"
+  "Mythologie",
+  "Histoire",
+  "Art",
+  "Langue française"
  ]
 }

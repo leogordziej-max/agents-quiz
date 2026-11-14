@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-13T17:00:09",
+ "debut": "2026-11-14T16:48:48",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Inventions, Espace, Mythologie",
-    "Évités (déjà faits récemment) : Sciences, Animaux, Corps humain"
+    "Thèmes du jour : Histoire, Art, Langue française",
+    "Évités (déjà faits récemment) : Sciences, Animaux, Corps humain, Inventions, Espace, Mythologie"
    ],
    "duree": 0.0
   },
@@ -20,9 +20,9 @@
    "statut": "ok",
    "message": "3 questions tirées de la banque (mode secours, pas de clé IA)",
    "details": [
-    "Quel est le symbole chimique de l'or ?",
-    "Quelle planète est la plus proche du Soleil ?",
-    "Quel est l'animal terrestre le plus rapide ?"
+    "Combien d'os a un adulte ?",
+    "Qui a peint la Joconde ?",
+    "Combien de joueurs par équipe sur un terrain de foot ?"
    ],
    "duree": 0.0
   },
@@ -40,41 +40,41 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix générées, durée totale 29.7 s",
+   "message": "Voix générées, durée totale 30.7 s",
    "details": [
     "Voix : Piper fr-siwis (gratuite, locale)"
    ],
-   "duree": 5.78
+   "duree": 3.99
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 5.78,
+   "debut": 3.99,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_002.mp4",
+   "message": "Vidéo montée : quiz_003.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 26.1
+   "duree": 14.93
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 31.88,
+   "debut": 18.92,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 29.6 s",
+    "Durée 30.7 s",
     "Poids 0.8 Mo"
    ],
-   "duree": 0.06
+   "duree": 0.04
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 31.94,
+   "debut": 18.96,
    "statut": "ok",
    "message": "Prête à publier (comptes pas encore connectés)",
    "details": [
@@ -84,44 +84,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_002.mp4",
- "duree_totale": 31.9,
+ "video": "quiz_003.mp4",
+ "duree_totale": 19.0,
  "quiz": [
   {
-   "theme": "Sciences",
-   "question": "Quel est le symbole chimique de l'or ?",
+   "theme": "Corps humain",
+   "question": "Combien d'os a un adulte ?",
    "options": [
-    "Ag",
-    "Au",
-    "Or"
+    "186",
+    "206",
+    "226"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Au !",
-   "bonus": "Du latin aurum. Ag, c'est l'argent."
+   "reponse_voix": "Réponse B : 206 !",
+   "bonus": "Un bébé en a près de 300 : certains fusionnent."
   },
   {
-   "theme": "Espace",
-   "question": "Quelle planète est la plus proche du Soleil ?",
+   "theme": "Art",
+   "question": "Qui a peint la Joconde ?",
    "options": [
-    "Vénus",
-    "Mercure",
-    "Mars"
+    "Michel-Ange",
+    "Léonard de Vinci",
+    "Raphaël"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Mercure !",
-   "bonus": "Mais la plus chaude, c'est Vénus."
+   "reponse_voix": "Réponse B : Léonard de Vinci !",
+   "bonus": "Elle est exposée au Louvre, à Paris."
   },
   {
-   "theme": "Animaux",
-   "question": "Quel est l'animal terrestre le plus rapide ?",
+   "theme": "Sport",
+   "question": "Combien de joueurs par équipe sur un terrain de foot ?",
    "options": [
-    "Le lion",
-    "L'antilope",
-    "Le guépard"
+    "Neuf",
+    "Onze",
+    "Treize"
    ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : le guépard !",
-   "bonus": "Environ 100 km/h en pointe."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : onze !",
+   "bonus": "Gardien compris."
   }
  ]
 }
