@@ -119,7 +119,7 @@ def rediger(themes):
         dispo = [q for q in BANK if q["question"] not in HIST["utilisees"]]
         if len(dispo) < 3: raise ValueError("Pas de clé Gemini et banque de secours épuisée")
         random.shuffle(dispo); choix = dispo[:3]
-        return choix, "3 questions tirées de la banque (mode secours, pas de clé IA)", [q["question"] for q in choix]
+        return choix, f"3 questions tirées de la banque vérifiée ({len(dispo) - 3} restantes)", [q["question"] for q in choix]
     cands = ecrire_questions(themes, 6, HIST["utilisees"])
     return cands, f"{len(cands)} questions candidates écrites par l'IA", [q.get("question", "?") for q in cands]
 
@@ -187,8 +187,8 @@ def verifier(cands, themes):
 
 @agent("Malo", "Voix off")
 def voix(quiz):
-    events, total = make_quiz.build(quiz)
-    return (events, total), f"Voix générées, durée totale {total:.1f} s", ["Voix : Piper fr-siwis (gratuite, locale)"]
+    events, total = make_quiz.build(quiz); make_quiz.QUIZ_HOOK = quiz["_hook"]
+    return (events, total), f"Voix, musique et bruitages prêts, durée {total:.1f} s", [f"Accroche : {quiz['_hook'][0]}", "Voix : Piper fr-siwis (gratuite)", "Musique générée, libre de droits"]
 
 @agent("Zoé", "Montage")
 def montage(quiz, ev):
@@ -220,7 +220,22 @@ def controle(dst):
 def publier(dst, quiz):
     legende = "Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok"
     open(dst.replace(".mp4", "_legende.txt"), "w").write(legende)
-    return dst, "Prête à publier (comptes pas encore connectés)", [f"Légende : {legende}"]
+    # rangement dans le dossier tiktoks/ (gardé dans le dépôt, 60 dernières vidéos)
+    import shutil
+    dossier = f"{HERE}/tiktoks"; os.makedirs(dossier, exist_ok=True)
+    jour = datetime.date.today().isoformat()
+    nom = f"{jour}_{os.path.basename(dst)}"
+    shutil.copy(dst, f"{dossier}/{nom}")
+    idx_path = f"{dossier}/index.json"
+    idx = json.load(open(idx_path)) if os.path.exists(idx_path) else []
+    idx.append({"date": jour, "fichier": nom, "legende": legende,
+                "questions": [q["question"] for q in quiz["questions"]]})
+    while len(idx) > 60:
+        vieux = idx.pop(0)
+        try: os.remove(f"{dossier}/{vieux['fichier']}")
+        except FileNotFoundError: pass
+    json.dump(idx, open(idx_path, "w"), ensure_ascii=False, indent=1)
+    return dst, "Rangée dans « Mes TikToks », prête à publier", [f"Fichier : tiktoks/{nom}", f"Légende : {legende}", "Comptes TikTok/YouTube pas encore connectés"]
 
 if __name__ == "__main__":
     themes = choisir_theme(); cands = rediger(themes); quiz = verifier(cands, themes)
