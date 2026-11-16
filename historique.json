@@ -8,9 +8,12 @@
   "Quel est l'animal terrestre le plus rapide ?",
   "Combien d'os a un adulte ?",
   "Qui a peint la Joconde ?",
-  "Combien de joueurs par équipe sur un terrain de foot ?"
+  "Combien de joueurs par équipe sur un terrain de foot ?",
+  "Qui a peint le plafond de la chapelle Sixtine ?",
+  "Quel pays produit le plus de café ?",
+  "Quel tournoi de tennis se joue sur terre battue à Paris ?"
  ],
- "videos": 3,
+ "videos": 4,
  "themes_recents": [
   "Sciences",
   "Animaux",
@@ -20,6 +23,9 @@
   "Mythologie",
   "Histoire",
   "Art",
-  "Langue française"
+  "Langue française",
+  "Sciences",
+  "Nourriture",
+  "Musique"
  ]
 }

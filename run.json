@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-14T16:48:48",
+ "debut": "2026-11-16T08:10:29",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Histoire, Art, Langue française",
-    "Évités (déjà faits récemment) : Sciences, Animaux, Corps humain, Inventions, Espace, Mythologie"
+    "Thèmes du jour : Sciences, Nourriture, Musique",
+    "Évités (déjà faits récemment) : Inventions, Espace, Mythologie, Histoire, Art, Langue française"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque (mode secours, pas de clé IA)",
+   "message": "3 questions tirées de la banque vérifiée (150 restantes)",
    "details": [
-    "Combien d'os a un adulte ?",
-    "Qui a peint la Joconde ?",
-    "Combien de joueurs par équipe sur un terrain de foot ?"
+    "Qui a peint le plafond de la chapelle Sixtine ?",
+    "Quel pays produit le plus de café ?",
+    "Quel tournoi de tennis se joue sur terre battue à Paris ?"
    ],
    "duree": 0.0
   },
@@ -40,88 +40,92 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix générées, durée totale 30.7 s",
+   "message": "Voix, musique et bruitages prêts, durée 33.0 s",
    "details": [
-    "Voix : Piper fr-siwis (gratuite, locale)"
+    "Accroche : Prouve que t'as une bonne culture générale. Go !",
+    "Voix : Piper fr-siwis (gratuite)",
+    "Musique générée, libre de droits"
    ],
-   "duree": 3.99
+   "duree": 3.75
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 3.99,
+   "debut": 3.75,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_003.mp4",
+   "message": "Vidéo montée : quiz_004.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 14.93
+   "duree": 13.47
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 18.92,
+   "debut": 17.22,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 30.7 s",
-    "Poids 0.8 Mo"
+    "Durée 33.0 s",
+    "Poids 3.8 Mo"
    ],
-   "duree": 0.04
+   "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 18.96,
+   "debut": 17.27,
    "statut": "ok",
-   "message": "Prête à publier (comptes pas encore connectés)",
+   "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok"
+    "Fichier : tiktoks/2026-11-16_quiz_004.mp4",
+    "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
+    "Comptes TikTok/YouTube pas encore connectés"
    ],
    "duree": 0.0
   }
  ],
  "source": "banque",
- "video": "quiz_003.mp4",
- "duree_totale": 19.0,
+ "video": "quiz_004.mp4",
+ "duree_totale": 17.3,
  "quiz": [
   {
-   "theme": "Corps humain",
-   "question": "Combien d'os a un adulte ?",
+   "theme": "Art",
+   "question": "Qui a peint le plafond de la chapelle Sixtine ?",
    "options": [
-    "186",
-    "206",
-    "226"
+    "Raphaël",
+    "Botticelli",
+    "Michel-Ange"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : 206 !",
-   "bonus": "Un bébé en a près de 300 : certains fusionnent."
+   "bonne": 2,
+   "reponse_voix": "Réponse C : Michel-Ange !",
+   "bonus": "Il y a travaillé de 1508 à 1512."
   },
   {
-   "theme": "Art",
-   "question": "Qui a peint la Joconde ?",
+   "theme": "Nourriture",
+   "question": "Quel pays produit le plus de café ?",
    "options": [
-    "Michel-Ange",
-    "Léonard de Vinci",
-    "Raphaël"
+    "La Colombie",
+    "Le Brésil",
+    "L'Éthiopie"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Léonard de Vinci !",
-   "bonus": "Elle est exposée au Louvre, à Paris."
+   "reponse_voix": "Réponse B : Le Brésil !",
+   "bonus": "Le café est pourtant originaire d'Éthiopie."
   },
   {
    "theme": "Sport",
-   "question": "Combien de joueurs par équipe sur un terrain de foot ?",
+   "question": "Quel tournoi de tennis se joue sur terre battue à Paris ?",
    "options": [
-    "Neuf",
-    "Onze",
-    "Treize"
+    "Roland-Garros",
+    "Wimbledon",
+    "L'US Open"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : onze !",
-   "bonus": "Gardien compris."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Roland-Garros !",
+   "bonus": "Rafael Nadal l'a gagné 14 fois."
   }
  ]
 }
