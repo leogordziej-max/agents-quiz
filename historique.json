@@ -11,13 +11,13 @@
   "Combien de joueurs par équipe sur un terrain de foot ?",
   "Qui a peint le plafond de la chapelle Sixtine ?",
   "Quel pays produit le plus de café ?",
-  "Quel tournoi de tennis se joue sur terre battue à Paris ?"
+  "Quel tournoi de tennis se joue sur terre battue à Paris ?",
+  "Qui a libéré tous les maux du monde ?",
+  "Qui fut le premier président des États-Unis ?",
+  "Quel héros a vaincu le Minotaure ?"
  ],
- "videos": 4,
+ "videos": 5,
  "themes_recents": [
-  "Sciences",
-  "Animaux",
-  "Corps humain",
   "Inventions",
   "Espace",
   "Mythologie",
@@ -26,6 +26,9 @@
   "Langue française",
   "Sciences",
   "Nourriture",
-  "Musique"
+  "Musique",
+  "Sport",
+  "Mythologie",
+  "Inventions"
  ]
 }

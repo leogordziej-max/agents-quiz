@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-16T08:10:29",
+ "debut": "2026-11-16T17:22:09",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Sciences, Nourriture, Musique",
-    "Évités (déjà faits récemment) : Inventions, Espace, Mythologie, Histoire, Art, Langue française"
+    "Thèmes du jour : Sport, Mythologie, Inventions",
+    "Évités (déjà faits récemment) : Histoire, Art, Langue française, Sciences, Nourriture, Musique"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (150 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (147 restantes)",
    "details": [
-    "Qui a peint le plafond de la chapelle Sixtine ?",
-    "Quel pays produit le plus de café ?",
-    "Quel tournoi de tennis se joue sur terre battue à Paris ?"
+    "Qui a libéré tous les maux du monde ?",
+    "Qui fut le premier président des États-Unis ?",
+    "Quel héros a vaincu le Minotaure ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 33.0 s",
+   "message": "Voix, musique et bruitages prêts, durée 31.3 s",
    "details": [
-    "Accroche : Prouve que t'as une bonne culture générale. Go !",
+    "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 3.75
+   "duree": 3.99
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 3.75,
+   "debut": 3.99,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_004.mp4",
+   "message": "Vidéo montée : quiz_005.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 13.47
+   "duree": 14.49
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 17.22,
+   "debut": 18.48,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 33.0 s",
-    "Poids 3.8 Mo"
+    "Durée 31.3 s",
+    "Poids 3.6 Mo"
    ],
-   "duree": 0.05
+   "duree": 0.04
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 17.27,
+   "debut": 18.53,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-16_quiz_004.mp4",
+    "Fichier : tiktoks/2026-11-16_quiz_005.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_004.mp4",
- "duree_totale": 17.3,
+ "video": "quiz_005.mp4",
+ "duree_totale": 18.5,
  "quiz": [
   {
-   "theme": "Art",
-   "question": "Qui a peint le plafond de la chapelle Sixtine ?",
+   "theme": "Mythologie",
+   "question": "Qui a libéré tous les maux du monde ?",
    "options": [
-    "Raphaël",
-    "Botticelli",
-    "Michel-Ange"
-   ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Michel-Ange !",
-   "bonus": "Il y a travaillé de 1508 à 1512."
-  },
-  {
-   "theme": "Nourriture",
-   "question": "Quel pays produit le plus de café ?",
-   "options": [
-    "La Colombie",
-    "Le Brésil",
-    "L'Éthiopie"
-   ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Le Brésil !",
-   "bonus": "Le café est pourtant originaire d'Éthiopie."
-  },
-  {
-   "theme": "Sport",
-   "question": "Quel tournoi de tennis se joue sur terre battue à Paris ?",
-   "options": [
-    "Roland-Garros",
-    "Wimbledon",
-    "L'US Open"
+    "Pandore",
+    "Athéna",
+    "Héra"
    ],
    "bonne": 0,
-   "reponse_voix": "Réponse A : Roland-Garros !",
-   "bonus": "Rafael Nadal l'a gagné 14 fois."
+   "reponse_voix": "Réponse A : Pandore !",
+   "bonus": "Au fond de la boîte, il restait l'espérance."
+  },
+  {
+   "theme": "Histoire",
+   "question": "Qui fut le premier président des États-Unis ?",
+   "options": [
+    "Abraham Lincoln",
+    "Thomas Jefferson",
+    "George Washington"
+   ],
+   "bonne": 2,
+   "reponse_voix": "Réponse C : George Washington !",
+   "bonus": "Son visage est sur le billet d'un dollar."
+  },
+  {
+   "theme": "Mythologie",
+   "question": "Quel héros a vaincu le Minotaure ?",
+   "options": [
+    "Persée",
+    "Jason",
+    "Thésée"
+   ],
+   "bonne": 2,
+   "reponse_voix": "Réponse C : Thésée !",
+   "bonus": "Il est ressorti du labyrinthe grâce au fil d'Ariane."
   }
  ]
 }
