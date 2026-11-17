@@ -14,13 +14,13 @@
   "Quel tournoi de tennis se joue sur terre battue à Paris ?",
   "Qui a libéré tous les maux du monde ?",
   "Qui fut le premier président des États-Unis ?",
-  "Quel héros a vaincu le Minotaure ?"
+  "Quel héros a vaincu le Minotaure ?",
+  "Quelle est la capitale du Portugal ?",
+  "Qui est le roi des dieux grecs ?",
+  "Quelle est la capitale de l'Allemagne ?"
  ],
- "videos": 5,
+ "videos": 6,
  "themes_recents": [
-  "Inventions",
-  "Espace",
-  "Mythologie",
   "Histoire",
   "Art",
   "Langue française",
@@ -29,6 +29,9 @@
   "Musique",
   "Sport",
   "Mythologie",
-  "Inventions"
+  "Inventions",
+  "Géographie",
+  "Histoire",
+  "Records"
  ]
 }

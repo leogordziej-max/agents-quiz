@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-16T17:22:09",
+ "debut": "2026-11-17T17:12:02",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Sport, Mythologie, Inventions",
-    "Évités (déjà faits récemment) : Histoire, Art, Langue française, Sciences, Nourriture, Musique"
+    "Thèmes du jour : Géographie, Histoire, Records",
+    "Évités (déjà faits récemment) : Sciences, Nourriture, Musique, Sport, Mythologie, Inventions"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (147 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (144 restantes)",
    "details": [
-    "Qui a libéré tous les maux du monde ?",
-    "Qui fut le premier président des États-Unis ?",
-    "Quel héros a vaincu le Minotaure ?"
+    "Quelle est la capitale du Portugal ?",
+    "Qui est le roi des dieux grecs ?",
+    "Quelle est la capitale de l'Allemagne ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 31.3 s",
+   "message": "Voix, musique et bruitages prêts, durée 31.1 s",
    "details": [
     "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 3.99
+   "duree": 4.52
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 3.99,
+   "debut": 4.52,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_005.mp4",
+   "message": "Vidéo montée : quiz_006.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 14.49
+   "duree": 18.74
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 18.48,
+   "debut": 23.26,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 31.3 s",
+    "Durée 31.1 s",
     "Poids 3.6 Mo"
    ],
-   "duree": 0.04
+   "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 18.53,
+   "debut": 23.3,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-16_quiz_005.mp4",
+    "Fichier : tiktoks/2026-11-17_quiz_006.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_005.mp4",
- "duree_totale": 18.5,
+ "video": "quiz_006.mp4",
+ "duree_totale": 23.3,
  "quiz": [
   {
-   "theme": "Mythologie",
-   "question": "Qui a libéré tous les maux du monde ?",
+   "theme": "Géographie",
+   "question": "Quelle est la capitale du Portugal ?",
    "options": [
-    "Pandore",
-    "Athéna",
-    "Héra"
+    "Porto",
+    "Faro",
+    "Lisbonne"
+   ],
+   "bonne": 2,
+   "reponse_voix": "Réponse C : Lisbonne !",
+   "bonus": "Elle se trouve sur l'estuaire du Tage."
+  },
+  {
+   "theme": "Mythologie",
+   "question": "Qui est le roi des dieux grecs ?",
+   "options": [
+    "Zeus",
+    "Apollon",
+    "Hadès"
    ],
    "bonne": 0,
-   "reponse_voix": "Réponse A : Pandore !",
-   "bonus": "Au fond de la boîte, il restait l'espérance."
+   "reponse_voix": "Réponse A : Zeus !",
+   "bonus": "Il règne depuis le mont Olympe."
   },
   {
-   "theme": "Histoire",
-   "question": "Qui fut le premier président des États-Unis ?",
+   "theme": "Géographie",
+   "question": "Quelle est la capitale de l'Allemagne ?",
    "options": [
-    "Abraham Lincoln",
-    "Thomas Jefferson",
-    "George Washington"
+    "Berlin",
+    "Munich",
+    "Francfort"
    ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : George Washington !",
-   "bonus": "Son visage est sur le billet d'un dollar."
-  },
-  {
-   "theme": "Mythologie",
-   "question": "Quel héros a vaincu le Minotaure ?",
-   "options": [
-    "Persée",
-    "Jason",
-    "Thésée"
-   ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Thésée !",
-   "bonus": "Il est ressorti du labyrinthe grâce au fil d'Ariane."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Berlin !",
+   "bonus": "Un mur l'a coupée en deux de 1961 à 1989."
   }
  ]
 }
