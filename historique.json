@@ -17,13 +17,13 @@
   "Quel héros a vaincu le Minotaure ?",
   "Quelle est la capitale du Portugal ?",
   "Qui est le roi des dieux grecs ?",
-  "Quelle est la capitale de l'Allemagne ?"
+  "Quelle est la capitale de l'Allemagne ?",
+  "Combien de litres de sang a un adulte ?",
+  "Où vivent les manchots empereurs ?",
+  "Quel est le plus grand félin du monde ?"
  ],
- "videos": 6,
+ "videos": 7,
  "themes_recents": [
-  "Histoire",
-  "Art",
-  "Langue française",
   "Sciences",
   "Nourriture",
   "Musique",
@@ -32,6 +32,9 @@
   "Inventions",
   "Géographie",
   "Histoire",
-  "Records"
+  "Records",
+  "Cinéma",
+  "Corps humain",
+  "Musique"
  ]
 }

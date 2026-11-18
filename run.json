@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-17T17:12:02",
+ "debut": "2026-11-18T17:15:15",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Géographie, Histoire, Records",
-    "Évités (déjà faits récemment) : Sciences, Nourriture, Musique, Sport, Mythologie, Inventions"
+    "Thèmes du jour : Cinéma, Corps humain, Musique",
+    "Évités (déjà faits récemment) : Sport, Mythologie, Inventions, Géographie, Histoire, Records"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (144 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (141 restantes)",
    "details": [
-    "Quelle est la capitale du Portugal ?",
-    "Qui est le roi des dieux grecs ?",
-    "Quelle est la capitale de l'Allemagne ?"
+    "Combien de litres de sang a un adulte ?",
+    "Où vivent les manchots empereurs ?",
+    "Quel est le plus grand félin du monde ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 31.1 s",
+   "message": "Voix, musique et bruitages prêts, durée 32.0 s",
    "details": [
     "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 4.52
+   "duree": 5.28
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 4.52,
+   "debut": 5.28,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_006.mp4",
+   "message": "Vidéo montée : quiz_007.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 18.74
+   "duree": 22.98
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 23.26,
+   "debut": 28.26,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 31.1 s",
-    "Poids 3.6 Mo"
+    "Durée 32.0 s",
+    "Poids 3.7 Mo"
    ],
    "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 23.3,
+   "debut": 28.31,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-17_quiz_006.mp4",
+    "Fichier : tiktoks/2026-11-18_quiz_007.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_006.mp4",
- "duree_totale": 23.3,
+ "video": "quiz_007.mp4",
+ "duree_totale": 28.3,
  "quiz": [
   {
-   "theme": "Géographie",
-   "question": "Quelle est la capitale du Portugal ?",
+   "theme": "Corps humain",
+   "question": "Combien de litres de sang a un adulte ?",
    "options": [
-    "Porto",
-    "Faro",
-    "Lisbonne"
-   ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Lisbonne !",
-   "bonus": "Elle se trouve sur l'estuaire du Tage."
-  },
-  {
-   "theme": "Mythologie",
-   "question": "Qui est le roi des dieux grecs ?",
-   "options": [
-    "Zeus",
-    "Apollon",
-    "Hadès"
+    "Environ 5 litres",
+    "Environ 2 litres",
+    "Environ 10 litres"
    ],
    "bonne": 0,
-   "reponse_voix": "Réponse A : Zeus !",
-   "bonus": "Il règne depuis le mont Olympe."
+   "reponse_voix": "Réponse A : Environ 5 litres !",
+   "bonus": "Environ 7 % du poids du corps."
   },
   {
-   "theme": "Géographie",
-   "question": "Quelle est la capitale de l'Allemagne ?",
+   "theme": "Animaux",
+   "question": "Où vivent les manchots empereurs ?",
    "options": [
-    "Berlin",
-    "Munich",
-    "Francfort"
+    "En Antarctique",
+    "Au pôle Nord",
+    "En Islande"
    ],
    "bonne": 0,
-   "reponse_voix": "Réponse A : Berlin !",
-   "bonus": "Un mur l'a coupée en deux de 1961 à 1989."
+   "reponse_voix": "Réponse A : En Antarctique !",
+   "bonus": "Il n'y a aucun manchot sauvage au pôle Nord."
+  },
+  {
+   "theme": "Animaux",
+   "question": "Quel est le plus grand félin du monde ?",
+   "options": [
+    "Le tigre",
+    "Le lion",
+    "Le jaguar"
+   ],
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Le tigre !",
+   "bonus": "Le tigre de Sibérie peut peser plus de 250 kg."
   }
  ]
 }
