@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-18T17:15:15",
+ "debut": "2026-11-19T17:15:13",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Cinéma, Corps humain, Musique",
-    "Évités (déjà faits récemment) : Sport, Mythologie, Inventions, Géographie, Histoire, Records"
+    "Thèmes du jour : Animaux, Inventions, Langue française",
+    "Évités (déjà faits récemment) : Géographie, Histoire, Records, Cinéma, Corps humain, Musique"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (141 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (138 restantes)",
    "details": [
-    "Combien de litres de sang a un adulte ?",
-    "Où vivent les manchots empereurs ?",
-    "Quel est le plus grand félin du monde ?"
+    "Quel est le féminin de « acteur » ?",
+    "Comment s'appelle notre galaxie ?",
+    "Combien de temps dure un match de foot ?"
    ],
    "duree": 0.0
   },
@@ -42,27 +42,27 @@
    "statut": "ok",
    "message": "Voix, musique et bruitages prêts, durée 32.0 s",
    "details": [
-    "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
+    "Accroche : Trois questions, trois secondes chacune. T'es cap ?",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 5.28
+   "duree": 5.25
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 5.28,
+   "debut": 5.25,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_007.mp4",
+   "message": "Vidéo montée : quiz_008.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 22.98
+   "duree": 24.93
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 28.26,
+   "debut": 30.18,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
@@ -76,11 +76,11 @@
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 28.31,
+   "debut": 30.23,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-18_quiz_007.mp4",
+    "Fichier : tiktoks/2026-11-19_quiz_008.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_007.mp4",
- "duree_totale": 28.3,
+ "video": "quiz_008.mp4",
+ "duree_totale": 30.2,
  "quiz": [
   {
-   "theme": "Corps humain",
-   "question": "Combien de litres de sang a un adulte ?",
+   "theme": "Langue française",
+   "question": "Quel est le féminin de « acteur » ?",
    "options": [
-    "Environ 5 litres",
-    "Environ 2 litres",
-    "Environ 10 litres"
+    "Acteuse",
+    "Actrice",
+    "Acteure"
    ],
-   "bonne": 0,
-   "reponse_voix": "Réponse A : Environ 5 litres !",
-   "bonus": "Environ 7 % du poids du corps."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Actrice !",
+   "bonus": "Comme directeur, directrice."
   },
   {
-   "theme": "Animaux",
-   "question": "Où vivent les manchots empereurs ?",
+   "theme": "Espace",
+   "question": "Comment s'appelle notre galaxie ?",
    "options": [
-    "En Antarctique",
-    "Au pôle Nord",
-    "En Islande"
+    "Andromède",
+    "La Voie lactée",
+    "Le Grand Nuage"
    ],
-   "bonne": 0,
-   "reponse_voix": "Réponse A : En Antarctique !",
-   "bonus": "Il n'y a aucun manchot sauvage au pôle Nord."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : La Voie lactée !",
+   "bonus": "Elle compte plus de 100 milliards d'étoiles."
   },
   {
-   "theme": "Animaux",
-   "question": "Quel est le plus grand félin du monde ?",
+   "theme": "Sport",
+   "question": "Combien de temps dure un match de foot ?",
    "options": [
-    "Le tigre",
-    "Le lion",
-    "Le jaguar"
+    "80 minutes",
+    "100 minutes",
+    "90 minutes"
    ],
-   "bonne": 0,
-   "reponse_voix": "Réponse A : Le tigre !",
-   "bonus": "Le tigre de Sibérie peut peser plus de 250 kg."
+   "bonne": 2,
+   "reponse_voix": "Réponse C : 90 minutes !",
+   "bonus": "Deux mi-temps de 45 minutes."
   }
  ]
 }

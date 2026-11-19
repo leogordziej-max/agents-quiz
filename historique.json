@@ -20,13 +20,13 @@
   "Quelle est la capitale de l'Allemagne ?",
   "Combien de litres de sang a un adulte ?",
   "Où vivent les manchots empereurs ?",
-  "Quel est le plus grand félin du monde ?"
+  "Quel est le plus grand félin du monde ?",
+  "Quel est le féminin de « acteur » ?",
+  "Comment s'appelle notre galaxie ?",
+  "Combien de temps dure un match de foot ?"
  ],
- "videos": 7,
+ "videos": 8,
  "themes_recents": [
-  "Sciences",
-  "Nourriture",
-  "Musique",
   "Sport",
   "Mythologie",
   "Inventions",
@@ -35,6 +35,9 @@
   "Records",
   "Cinéma",
   "Corps humain",
-  "Musique"
+  "Musique",
+  "Animaux",
+  "Inventions",
+  "Langue française"
  ]
 }
