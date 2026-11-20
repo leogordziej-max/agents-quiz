@@ -23,13 +23,13 @@
   "Quel est le plus grand félin du monde ?",
   "Quel est le féminin de « acteur » ?",
   "Comment s'appelle notre galaxie ?",
-  "Combien de temps dure un match de foot ?"
+  "Combien de temps dure un match de foot ?",
+  "Quel animal est un symbole de la France ?",
+  "Quel personnage dit « Je suis ton père » ?",
+  "Quel est l'os le plus long du corps ?"
  ],
- "videos": 8,
+ "videos": 9,
  "themes_recents": [
-  "Sport",
-  "Mythologie",
-  "Inventions",
   "Géographie",
   "Histoire",
   "Records",
@@ -38,6 +38,9 @@
   "Musique",
   "Animaux",
   "Inventions",
-  "Langue française"
+  "Langue française",
+  "Espace",
+  "Nourriture",
+  "Art"
  ]
 }

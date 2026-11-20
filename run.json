@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-19T17:15:13",
+ "debut": "2026-11-20T17:06:16",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Animaux, Inventions, Langue française",
-    "Évités (déjà faits récemment) : Géographie, Histoire, Records, Cinéma, Corps humain, Musique"
+    "Thèmes du jour : Espace, Nourriture, Art",
+    "Évités (déjà faits récemment) : Cinéma, Corps humain, Musique, Animaux, Inventions, Langue française"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (138 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (135 restantes)",
    "details": [
-    "Quel est le féminin de « acteur » ?",
-    "Comment s'appelle notre galaxie ?",
-    "Combien de temps dure un match de foot ?"
+    "Quel animal est un symbole de la France ?",
+    "Quel personnage dit « Je suis ton père » ?",
+    "Quel est l'os le plus long du corps ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 32.0 s",
+   "message": "Voix, musique et bruitages prêts, durée 31.9 s",
    "details": [
-    "Accroche : Trois questions, trois secondes chacune. T'es cap ?",
+    "Accroche : Arrête de scroller, et réponds vite !",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 5.25
+   "duree": 4.61
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 5.25,
+   "debut": 4.61,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_008.mp4",
+   "message": "Vidéo montée : quiz_009.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 24.93
+   "duree": 18.43
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 30.18,
+   "debut": 23.04,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 32.0 s",
-    "Poids 3.7 Mo"
+    "Durée 31.9 s",
+    "Poids 3.6 Mo"
    ],
    "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 30.23,
+   "debut": 23.09,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-19_quiz_008.mp4",
+    "Fichier : tiktoks/2026-11-20_quiz_009.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_008.mp4",
- "duree_totale": 30.2,
+ "video": "quiz_009.mp4",
+ "duree_totale": 23.1,
  "quiz": [
   {
-   "theme": "Langue française",
-   "question": "Quel est le féminin de « acteur » ?",
+   "theme": "Animaux",
+   "question": "Quel animal est un symbole de la France ?",
    "options": [
-    "Acteuse",
-    "Actrice",
-    "Acteure"
-   ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Actrice !",
-   "bonus": "Comme directeur, directrice."
-  },
-  {
-   "theme": "Espace",
-   "question": "Comment s'appelle notre galaxie ?",
-   "options": [
-    "Andromède",
-    "La Voie lactée",
-    "Le Grand Nuage"
-   ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : La Voie lactée !",
-   "bonus": "Elle compte plus de 100 milliards d'étoiles."
-  },
-  {
-   "theme": "Sport",
-   "question": "Combien de temps dure un match de foot ?",
-   "options": [
-    "80 minutes",
-    "100 minutes",
-    "90 minutes"
+    "L'aigle",
+    "Le lion",
+    "Le coq"
    ],
    "bonne": 2,
-   "reponse_voix": "Réponse C : 90 minutes !",
-   "bonus": "Deux mi-temps de 45 minutes."
+   "reponse_voix": "Réponse C : Le coq !",
+   "bonus": "En latin, gallus veut dire coq et Gaulois."
+  },
+  {
+   "theme": "Cinéma",
+   "question": "Quel personnage dit « Je suis ton père » ?",
+   "options": [
+    "Gandalf",
+    "Voldemort",
+    "Dark Vador"
+   ],
+   "bonne": 2,
+   "reponse_voix": "Réponse C : Dark Vador !",
+   "bonus": "Dans L'Empire contre-attaque, en 1980."
+  },
+  {
+   "theme": "Corps humain",
+   "question": "Quel est l'os le plus long du corps ?",
+   "options": [
+    "Le tibia",
+    "Le fémur",
+    "L'humérus"
+   ],
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Le fémur !",
+   "bonus": "C'est l'os de la cuisse."
   }
  ]
 }
