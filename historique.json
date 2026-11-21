@@ -26,13 +26,13 @@
   "Combien de temps dure un match de foot ?",
   "Quel animal est un symbole de la France ?",
   "Quel personnage dit « Je suis ton père » ?",
-  "Quel est l'os le plus long du corps ?"
+  "Quel est l'os le plus long du corps ?",
+  "Quel cheval ailé vient de la mythologie grecque ?",
+  "Qui a écrit Vingt mille lieues sous les mers ?",
+  "Combien de dents a un adulte (sagesse comprises) ?"
  ],
- "videos": 9,
+ "videos": 10,
  "themes_recents": [
-  "Géographie",
-  "Histoire",
-  "Records",
   "Cinéma",
   "Corps humain",
   "Musique",
@@ -41,6 +41,9 @@
   "Langue française",
   "Espace",
   "Nourriture",
-  "Art"
+  "Art",
+  "Géographie",
+  "Mythologie",
+  "Histoire"
  ]
 }

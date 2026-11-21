@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-20T17:06:16",
+ "debut": "2026-11-21T16:54:00",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Espace, Nourriture, Art",
-    "Évités (déjà faits récemment) : Cinéma, Corps humain, Musique, Animaux, Inventions, Langue française"
+    "Thèmes du jour : Géographie, Mythologie, Histoire",
+    "Évités (déjà faits récemment) : Animaux, Inventions, Langue française, Espace, Nourriture, Art"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (135 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (132 restantes)",
    "details": [
-    "Quel animal est un symbole de la France ?",
-    "Quel personnage dit « Je suis ton père » ?",
-    "Quel est l'os le plus long du corps ?"
+    "Quel cheval ailé vient de la mythologie grecque ?",
+    "Qui a écrit Vingt mille lieues sous les mers ?",
+    "Combien de dents a un adulte (sagesse comprises) ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 31.9 s",
+   "message": "Voix, musique et bruitages prêts, durée 32.1 s",
    "details": [
-    "Accroche : Arrête de scroller, et réponds vite !",
+    "Accroche : Trois questions, trois secondes chacune. T'es cap ?",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 4.61
+   "duree": 5.05
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 4.61,
+   "debut": 5.05,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_009.mp4",
+   "message": "Vidéo montée : quiz_010.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 18.43
+   "duree": 22.66
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 23.04,
+   "debut": 27.71,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 31.9 s",
-    "Poids 3.6 Mo"
+    "Durée 32.1 s",
+    "Poids 3.7 Mo"
    ],
    "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 23.09,
+   "debut": 27.76,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-20_quiz_009.mp4",
+    "Fichier : tiktoks/2026-11-21_quiz_010.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_009.mp4",
- "duree_totale": 23.1,
+ "video": "quiz_010.mp4",
+ "duree_totale": 27.8,
  "quiz": [
   {
-   "theme": "Animaux",
-   "question": "Quel animal est un symbole de la France ?",
+   "theme": "Mythologie",
+   "question": "Quel cheval ailé vient de la mythologie grecque ?",
    "options": [
-    "L'aigle",
-    "Le lion",
-    "Le coq"
+    "Bucéphale",
+    "Pégase",
+    "Licorne"
    ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Le coq !",
-   "bonus": "En latin, gallus veut dire coq et Gaulois."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Pégase !",
+   "bonus": "Il est né du sang de Méduse."
   },
   {
-   "theme": "Cinéma",
-   "question": "Quel personnage dit « Je suis ton père » ?",
+   "theme": "Littérature",
+   "question": "Qui a écrit Vingt mille lieues sous les mers ?",
    "options": [
-    "Gandalf",
-    "Voldemort",
-    "Dark Vador"
+    "Jules Verne",
+    "Alexandre Dumas",
+    "Victor Hugo"
    ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Dark Vador !",
-   "bonus": "Dans L'Empire contre-attaque, en 1980."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Jules Verne !",
+   "bonus": "Le sous-marin s'appelle le Nautilus."
   },
   {
    "theme": "Corps humain",
-   "question": "Quel est l'os le plus long du corps ?",
+   "question": "Combien de dents a un adulte (sagesse comprises) ?",
    "options": [
-    "Le tibia",
-    "Le fémur",
-    "L'humérus"
+    "32",
+    "28",
+    "36"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Le fémur !",
-   "bonus": "C'est l'os de la cuisse."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : 32 !",
+   "bonus": "Un enfant a 20 dents de lait."
   }
  ]
 }
