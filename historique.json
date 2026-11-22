@@ -29,13 +29,13 @@
   "Quel est l'os le plus long du corps ?",
   "Quel cheval ailé vient de la mythologie grecque ?",
   "Qui a écrit Vingt mille lieues sous les mers ?",
-  "Combien de dents a un adulte (sagesse comprises) ?"
+  "Combien de dents a un adulte (sagesse comprises) ?",
+  "Quelle unité mesure la puissance électrique ?",
+  "En combien de temps la Terre fait-elle le tour du Soleil ?",
+  "Avec quel lait fait-on le roquefort ?"
  ],
- "videos": 10,
+ "videos": 11,
  "themes_recents": [
-  "Cinéma",
-  "Corps humain",
-  "Musique",
   "Animaux",
   "Inventions",
   "Langue française",
@@ -44,6 +44,9 @@
   "Art",
   "Géographie",
   "Mythologie",
-  "Histoire"
+  "Histoire",
+  "Cinéma",
+  "Animaux",
+  "Records"
  ]
 }

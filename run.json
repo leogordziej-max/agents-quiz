@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-21T16:54:00",
+ "debut": "2026-11-22T16:54:37",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Géographie, Mythologie, Histoire",
-    "Évités (déjà faits récemment) : Animaux, Inventions, Langue française, Espace, Nourriture, Art"
+    "Thèmes du jour : Cinéma, Animaux, Records",
+    "Évités (déjà faits récemment) : Espace, Nourriture, Art, Géographie, Mythologie, Histoire"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (132 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (129 restantes)",
    "details": [
-    "Quel cheval ailé vient de la mythologie grecque ?",
-    "Qui a écrit Vingt mille lieues sous les mers ?",
-    "Combien de dents a un adulte (sagesse comprises) ?"
+    "Quelle unité mesure la puissance électrique ?",
+    "En combien de temps la Terre fait-elle le tour du Soleil ?",
+    "Avec quel lait fait-on le roquefort ?"
    ],
    "duree": 0.0
   },
@@ -40,92 +40,92 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 32.1 s",
+   "message": "Voix, musique et bruitages prêts, durée 34.1 s",
    "details": [
-    "Accroche : Trois questions, trois secondes chacune. T'es cap ?",
+    "Accroche : Arrête de scroller, et réponds vite !",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 5.05
+   "duree": 4.81
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 5.05,
+   "debut": 4.82,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_010.mp4",
+   "message": "Vidéo montée : quiz_011.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 22.66
+   "duree": 22.1
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 27.71,
+   "debut": 26.92,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 32.1 s",
-    "Poids 3.7 Mo"
+    "Durée 34.1 s",
+    "Poids 3.9 Mo"
    ],
    "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 27.76,
+   "debut": 26.97,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-21_quiz_010.mp4",
+    "Fichier : tiktoks/2026-11-22_quiz_011.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
-   "duree": 0.0
+   "duree": 0.04
   }
  ],
  "source": "banque",
- "video": "quiz_010.mp4",
- "duree_totale": 27.8,
+ "video": "quiz_011.mp4",
+ "duree_totale": 27.0,
  "quiz": [
   {
-   "theme": "Mythologie",
-   "question": "Quel cheval ailé vient de la mythologie grecque ?",
+   "theme": "Sciences",
+   "question": "Quelle unité mesure la puissance électrique ?",
    "options": [
-    "Bucéphale",
-    "Pégase",
-    "Licorne"
+    "Le volt",
+    "Le watt",
+    "L'ampère"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Pégase !",
-   "bonus": "Il est né du sang de Méduse."
+   "reponse_voix": "Réponse B : Le watt !",
+   "bonus": "Nommée d'après l'ingénieur James Watt."
   },
   {
-   "theme": "Littérature",
-   "question": "Qui a écrit Vingt mille lieues sous les mers ?",
+   "theme": "Espace",
+   "question": "En combien de temps la Terre fait-elle le tour du Soleil ?",
    "options": [
-    "Jules Verne",
-    "Alexandre Dumas",
-    "Victor Hugo"
+    "Environ 30 jours",
+    "Environ 365 jours",
+    "24 heures"
    ],
-   "bonne": 0,
-   "reponse_voix": "Réponse A : Jules Verne !",
-   "bonus": "Le sous-marin s'appelle le Nautilus."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Environ 365 jours !",
+   "bonus": "D'où une année bissextile tous les 4 ans."
   },
   {
-   "theme": "Corps humain",
-   "question": "Combien de dents a un adulte (sagesse comprises) ?",
+   "theme": "Nourriture",
+   "question": "Avec quel lait fait-on le roquefort ?",
    "options": [
-    "32",
-    "28",
-    "36"
+    "Lait de vache",
+    "Lait de chèvre",
+    "Lait de brebis"
    ],
-   "bonne": 0,
-   "reponse_voix": "Réponse A : 32 !",
-   "bonus": "Un enfant a 20 dents de lait."
+   "bonne": 2,
+   "reponse_voix": "Réponse C : Lait de brebis !",
+   "bonus": "Il est affiné dans des caves naturelles."
   }
  ]
 }
