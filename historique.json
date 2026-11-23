@@ -32,13 +32,13 @@
   "Combien de dents a un adulte (sagesse comprises) ?",
   "Quelle unité mesure la puissance électrique ?",
   "En combien de temps la Terre fait-elle le tour du Soleil ?",
-  "Avec quel lait fait-on le roquefort ?"
+  "Avec quel lait fait-on le roquefort ?",
+  "Quel est le plus grand organe du corps humain ?",
+  "Quel dieu nordique manie un marteau ?",
+  "Combien de bras a une pieuvre ?"
  ],
- "videos": 11,
+ "videos": 12,
  "themes_recents": [
-  "Animaux",
-  "Inventions",
-  "Langue française",
   "Espace",
   "Nourriture",
   "Art",
@@ -47,6 +47,9 @@
   "Histoire",
   "Cinéma",
   "Animaux",
-  "Records"
+  "Records",
+  "Sciences",
+  "Sport",
+  "Inventions"
  ]
 }

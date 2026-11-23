@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-22T16:54:37",
+ "debut": "2026-11-23T17:11:32",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Cinéma, Animaux, Records",
-    "Évités (déjà faits récemment) : Espace, Nourriture, Art, Géographie, Mythologie, Histoire"
+    "Thèmes du jour : Sciences, Sport, Inventions",
+    "Évités (déjà faits récemment) : Géographie, Mythologie, Histoire, Cinéma, Animaux, Records"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (129 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (126 restantes)",
    "details": [
-    "Quelle unité mesure la puissance électrique ?",
-    "En combien de temps la Terre fait-elle le tour du Soleil ?",
-    "Avec quel lait fait-on le roquefort ?"
+    "Quel est le plus grand organe du corps humain ?",
+    "Quel dieu nordique manie un marteau ?",
+    "Combien de bras a une pieuvre ?"
    ],
    "duree": 0.0
   },
@@ -40,92 +40,92 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 34.1 s",
+   "message": "Voix, musique et bruitages prêts, durée 30.3 s",
    "details": [
     "Accroche : Arrête de scroller, et réponds vite !",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 4.81
+   "duree": 3.13
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 4.82,
+   "debut": 3.13,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_011.mp4",
+   "message": "Vidéo montée : quiz_012.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 22.1
+   "duree": 13.54
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 26.92,
+   "debut": 16.67,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 34.1 s",
-    "Poids 3.9 Mo"
+    "Durée 30.3 s",
+    "Poids 3.5 Mo"
    ],
-   "duree": 0.05
+   "duree": 0.04
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 26.97,
+   "debut": 16.71,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-22_quiz_011.mp4",
+    "Fichier : tiktoks/2026-11-23_quiz_012.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
-   "duree": 0.04
+   "duree": 0.0
   }
  ],
  "source": "banque",
- "video": "quiz_011.mp4",
- "duree_totale": 27.0,
+ "video": "quiz_012.mp4",
+ "duree_totale": 16.7,
  "quiz": [
   {
-   "theme": "Sciences",
-   "question": "Quelle unité mesure la puissance électrique ?",
+   "theme": "Corps humain",
+   "question": "Quel est le plus grand organe du corps humain ?",
    "options": [
-    "Le volt",
-    "Le watt",
-    "L'ampère"
+    "Le foie",
+    "La peau",
+    "Le cerveau"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Le watt !",
-   "bonus": "Nommée d'après l'ingénieur James Watt."
+   "reponse_voix": "Réponse B : La peau !",
+   "bonus": "Elle pèse plusieurs kilos chez l'adulte."
   },
   {
-   "theme": "Espace",
-   "question": "En combien de temps la Terre fait-elle le tour du Soleil ?",
+   "theme": "Mythologie",
+   "question": "Quel dieu nordique manie un marteau ?",
    "options": [
-    "Environ 30 jours",
-    "Environ 365 jours",
-    "24 heures"
+    "Odin",
+    "Thor",
+    "Loki"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Environ 365 jours !",
-   "bonus": "D'où une année bissextile tous les 4 ans."
+   "reponse_voix": "Réponse B : Thor !",
+   "bonus": "Son marteau s'appelle Mjöllnir."
   },
   {
-   "theme": "Nourriture",
-   "question": "Avec quel lait fait-on le roquefort ?",
+   "theme": "Animaux",
+   "question": "Combien de bras a une pieuvre ?",
    "options": [
-    "Lait de vache",
-    "Lait de chèvre",
-    "Lait de brebis"
+    "Six",
+    "Huit",
+    "Dix"
    ],
-   "bonne": 2,
-   "reponse_voix": "Réponse C : Lait de brebis !",
-   "bonus": "Il est affiné dans des caves naturelles."
+   "bonne": 1,
+   "reponse_voix": "Réponse B : Huit !",
+   "bonus": "Le calmar en a dix, tentacules compris."
   }
  ]
 }
