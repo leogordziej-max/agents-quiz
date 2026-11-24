@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-23T17:11:32",
+ "debut": "2026-11-24T17:12:06",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Sciences, Sport, Inventions",
-    "Évités (déjà faits récemment) : Géographie, Mythologie, Histoire, Cinéma, Animaux, Records"
+    "Thèmes du jour : Corps humain, Histoire, Art",
+    "Évités (déjà faits récemment) : Cinéma, Animaux, Records, Sciences, Sport, Inventions"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (126 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (123 restantes)",
    "details": [
-    "Quel est le plus grand organe du corps humain ?",
-    "Quel dieu nordique manie un marteau ?",
-    "Combien de bras a une pieuvre ?"
+    "Quel grand compositeur est devenu sourd ?",
+    "À quel mouvement associe-t-on Claude Monet ?",
+    "À quelle température l'eau bout-elle (niveau de la mer) ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 30.3 s",
+   "message": "Voix, musique et bruitages prêts, durée 33.3 s",
    "details": [
-    "Accroche : Arrête de scroller, et réponds vite !",
+    "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 3.13
+   "duree": 4.24
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 3.13,
+   "debut": 4.24,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_012.mp4",
+   "message": "Vidéo montée : quiz_013.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 13.54
+   "duree": 19.29
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 16.67,
+   "debut": 23.52,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 30.3 s",
-    "Poids 3.5 Mo"
+    "Durée 33.3 s",
+    "Poids 3.8 Mo"
    ],
-   "duree": 0.04
+   "duree": 0.05
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 16.71,
+   "debut": 23.57,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-23_quiz_012.mp4",
+    "Fichier : tiktoks/2026-11-24_quiz_013.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_012.mp4",
- "duree_totale": 16.7,
+ "video": "quiz_013.mp4",
+ "duree_totale": 23.6,
  "quiz": [
   {
-   "theme": "Corps humain",
-   "question": "Quel est le plus grand organe du corps humain ?",
+   "theme": "Musique",
+   "question": "Quel grand compositeur est devenu sourd ?",
    "options": [
-    "Le foie",
-    "La peau",
-    "Le cerveau"
+    "Mozart",
+    "Beethoven",
+    "Chopin"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : La peau !",
-   "bonus": "Elle pèse plusieurs kilos chez l'adulte."
+   "reponse_voix": "Réponse B : Beethoven !",
+   "bonus": "Il a composé sa 9e symphonie en étant sourd."
   },
   {
-   "theme": "Mythologie",
-   "question": "Quel dieu nordique manie un marteau ?",
+   "theme": "Art",
+   "question": "À quel mouvement associe-t-on Claude Monet ?",
    "options": [
-    "Odin",
-    "Thor",
-    "Loki"
+    "Le cubisme",
+    "Le surréalisme",
+    "L'impressionnisme"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Thor !",
-   "bonus": "Son marteau s'appelle Mjöllnir."
+   "bonne": 2,
+   "reponse_voix": "Réponse C : L'impressionnisme !",
+   "bonus": "Nommé d'après son tableau Impression, soleil levant."
   },
   {
-   "theme": "Animaux",
-   "question": "Combien de bras a une pieuvre ?",
+   "theme": "Sciences",
+   "question": "À quelle température l'eau bout-elle (niveau de la mer) ?",
    "options": [
-    "Six",
-    "Huit",
-    "Dix"
+    "90 °C",
+    "100 °C",
+    "120 °C"
    ],
    "bonne": 1,
-   "reponse_voix": "Réponse B : Huit !",
-   "bonus": "Le calmar en a dix, tentacules compris."
+   "reponse_voix": "Réponse B : 100 °C !",
+   "bonus": "En altitude, elle bout plus tôt."
   }
  ]
 }

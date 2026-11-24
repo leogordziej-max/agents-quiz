@@ -35,13 +35,13 @@
   "Avec quel lait fait-on le roquefort ?",
   "Quel est le plus grand organe du corps humain ?",
   "Quel dieu nordique manie un marteau ?",
-  "Combien de bras a une pieuvre ?"
+  "Combien de bras a une pieuvre ?",
+  "Quel grand compositeur est devenu sourd ?",
+  "À quel mouvement associe-t-on Claude Monet ?",
+  "À quelle température l'eau bout-elle (niveau de la mer) ?"
  ],
- "videos": 12,
+ "videos": 13,
  "themes_recents": [
-  "Espace",
-  "Nourriture",
-  "Art",
   "Géographie",
   "Mythologie",
   "Histoire",
@@ -50,6 +50,9 @@
   "Records",
   "Sciences",
   "Sport",
-  "Inventions"
+  "Inventions",
+  "Corps humain",
+  "Histoire",
+  "Art"
  ]
 }
