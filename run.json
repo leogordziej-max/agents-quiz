@@ -1,5 +1,5 @@
 {
- "debut": "2026-11-24T17:12:06",
+ "debut": "2026-11-25T17:12:36",
  "agents": [
   {
    "nom": "Léa",
@@ -8,8 +8,8 @@
    "statut": "ok",
    "message": "3 thèmes choisis",
    "details": [
-    "Thèmes du jour : Corps humain, Histoire, Art",
-    "Évités (déjà faits récemment) : Cinéma, Animaux, Records, Sciences, Sport, Inventions"
+    "Thèmes du jour : Espace, Mythologie, Cinéma",
+    "Évités (déjà faits récemment) : Sciences, Sport, Inventions, Corps humain, Histoire, Art"
    ],
    "duree": 0.0
   },
@@ -18,11 +18,11 @@
    "role": "Rédaction du quiz",
    "debut": 0.0,
    "statut": "ok",
-   "message": "3 questions tirées de la banque vérifiée (123 restantes)",
+   "message": "3 questions tirées de la banque vérifiée (120 restantes)",
    "details": [
-    "Quel grand compositeur est devenu sourd ?",
-    "À quel mouvement associe-t-on Claude Monet ?",
-    "À quelle température l'eau bout-elle (niveau de la mer) ?"
+    "Dans quel pays se trouve le Machu Picchu ?",
+    "Quel est le plus grand océan du monde ?",
+    "Combien de pattes a un insecte ?"
    ],
    "duree": 0.0
   },
@@ -40,47 +40,47 @@
    "role": "Voix off",
    "debut": 0.0,
    "statut": "ok",
-   "message": "Voix, musique et bruitages prêts, durée 33.3 s",
+   "message": "Voix, musique et bruitages prêts, durée 30.6 s",
    "details": [
-    "Accroche : Si tu fais trois sur trois, t'es un vrai génie.",
+    "Accroche : Prouve que t'as une bonne culture générale. Go !",
     "Voix : Piper fr-siwis (gratuite)",
     "Musique générée, libre de droits"
    ],
-   "duree": 4.24
+   "duree": 4.07
   },
   {
    "nom": "Zoé",
    "role": "Montage",
-   "debut": 4.24,
+   "debut": 4.08,
    "statut": "ok",
-   "message": "Vidéo montée : quiz_013.mp4",
+   "message": "Vidéo montée : quiz_014.mp4",
    "details": [
     "1080×1920, 30 i/s, H.264"
    ],
-   "duree": 19.29
+   "duree": 17.56
   },
   {
    "nom": "Sam",
    "role": "Contrôle qualité",
-   "debut": 23.52,
+   "debut": 21.63,
    "statut": "ok",
    "message": "Vidéo conforme",
    "details": [
     "Format vertical OK",
     "Son présent",
-    "Durée 33.3 s",
-    "Poids 3.8 Mo"
+    "Durée 30.6 s",
+    "Poids 3.6 Mo"
    ],
-   "duree": 0.05
+   "duree": 0.04
   },
   {
    "nom": "Noé",
    "role": "Publication",
-   "debut": 23.57,
+   "debut": 21.67,
    "statut": "ok",
    "message": "Rangée dans « Mes TikToks », prête à publier",
    "details": [
-    "Fichier : tiktoks/2026-11-24_quiz_013.mp4",
+    "Fichier : tiktoks/2026-11-25_quiz_014.mp4",
     "Légende : Quiz culture G : t'as eu combien ? 🧠 #quiz #culturegenerale #apprendresurtiktok",
     "Comptes TikTok/YouTube pas encore connectés"
    ],
@@ -88,44 +88,44 @@
   }
  ],
  "source": "banque",
- "video": "quiz_013.mp4",
- "duree_totale": 23.6,
+ "video": "quiz_014.mp4",
+ "duree_totale": 21.7,
  "quiz": [
   {
-   "theme": "Musique",
-   "question": "Quel grand compositeur est devenu sourd ?",
+   "theme": "Géographie",
+   "question": "Dans quel pays se trouve le Machu Picchu ?",
    "options": [
-    "Mozart",
-    "Beethoven",
-    "Chopin"
+    "Le Pérou",
+    "Le Mexique",
+    "Le Chili"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : Beethoven !",
-   "bonus": "Il a composé sa 9e symphonie en étant sourd."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Le Pérou !",
+   "bonus": "Une cité inca du XVe siècle."
   },
   {
-   "theme": "Art",
-   "question": "À quel mouvement associe-t-on Claude Monet ?",
+   "theme": "Géographie",
+   "question": "Quel est le plus grand océan du monde ?",
    "options": [
-    "Le cubisme",
-    "Le surréalisme",
-    "L'impressionnisme"
+    "L'Atlantique",
+    "L'océan Indien",
+    "Le Pacifique"
    ],
    "bonne": 2,
-   "reponse_voix": "Réponse C : L'impressionnisme !",
-   "bonus": "Nommé d'après son tableau Impression, soleil levant."
+   "reponse_voix": "Réponse C : Le Pacifique !",
+   "bonus": "Il couvre environ un tiers de la Terre."
   },
   {
-   "theme": "Sciences",
-   "question": "À quelle température l'eau bout-elle (niveau de la mer) ?",
+   "theme": "Animaux",
+   "question": "Combien de pattes a un insecte ?",
    "options": [
-    "90 °C",
-    "100 °C",
-    "120 °C"
+    "Six",
+    "Huit",
+    "Quatre"
    ],
-   "bonne": 1,
-   "reponse_voix": "Réponse B : 100 °C !",
-   "bonus": "En altitude, elle bout plus tôt."
+   "bonne": 0,
+   "reponse_voix": "Réponse A : Six !",
+   "bonus": "Les araignées, elles, en ont huit."
   }
  ]
 }

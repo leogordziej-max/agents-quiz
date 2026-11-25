@@ -38,13 +38,13 @@
   "Combien de bras a une pieuvre ?",
   "Quel grand compositeur est devenu sourd ?",
   "À quel mouvement associe-t-on Claude Monet ?",
-  "À quelle température l'eau bout-elle (niveau de la mer) ?"
+  "À quelle température l'eau bout-elle (niveau de la mer) ?",
+  "Dans quel pays se trouve le Machu Picchu ?",
+  "Quel est le plus grand océan du monde ?",
+  "Combien de pattes a un insecte ?"
  ],
- "videos": 13,
+ "videos": 14,
  "themes_recents": [
-  "Géographie",
-  "Mythologie",
-  "Histoire",
   "Cinéma",
   "Animaux",
   "Records",
@@ -53,6 +53,9 @@
   "Inventions",
   "Corps humain",
   "Histoire",
-  "Art"
+  "Art",
+  "Espace",
+  "Mythologie",
+  "Cinéma"
  ]
 }
