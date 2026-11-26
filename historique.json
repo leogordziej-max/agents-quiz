@@ -41,13 +41,13 @@
   "À quelle température l'eau bout-elle (niveau de la mer) ?",
   "Dans quel pays se trouve le Machu Picchu ?",
   "Quel est le plus grand océan du monde ?",
-  "Combien de pattes a un insecte ?"
+  "Combien de pattes a un insecte ?",
+  "Qui a écrit Le Malade imaginaire ?",
+  "En quelle année a eu lieu la prise de la Bastille ?",
+  "Combien d'étoiles sur le drapeau européen ?"
  ],
- "videos": 14,
+ "videos": 15,
  "themes_recents": [
-  "Cinéma",
-  "Animaux",
-  "Records",
   "Sciences",
   "Sport",
   "Inventions",
@@ -56,6 +56,9 @@
   "Art",
   "Espace",
   "Mythologie",
-  "Cinéma"
+  "Cinéma",
+  "Sciences",
+  "Musique",
+  "Sport"
  ]
 }
