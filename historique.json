@@ -44,13 +44,13 @@
   "Combien de pattes a un insecte ?",
   "Qui a écrit Le Malade imaginaire ?",
   "En quelle année a eu lieu la prise de la Bastille ?",
-  "Combien d'étoiles sur le drapeau européen ?"
+  "Combien d'étoiles sur le drapeau européen ?",
+  "Quelle créature change en pierre d'un regard ?",
+  "Qui a dit « Veni, vidi, vici » ?",
+  "Quel est l'hymne national français ?"
  ],
- "videos": 15,
+ "videos": 16,
  "themes_recents": [
-  "Sciences",
-  "Sport",
-  "Inventions",
   "Corps humain",
   "Histoire",
   "Art",
@@ -59,6 +59,9 @@
   "Cinéma",
   "Sciences",
   "Musique",
-  "Sport"
+  "Sport",
+  "Langue française",
+  "Inventions",
+  "Records"
  ]
 }
